@@ -1,0 +1,30 @@
+{
+  "name": "nrc-721",
+  "version": "0.1.0",
+  "description": "NRC-721 is a NFT implementation standard for extensible smart contract development in Nervos Network",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rather-labs/nrc-721.git"
+  },
+  "keywords": [
+    "nervos",
+    "nft",
+    "ckb",
+    "security",
+    "rather-labs",
+    "ratherlabs"
+  ],
+  "author": "Rather Labs, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rather-labs/nrc-721/issues"
+  },
+  "homepage": "https://github.com/rather-labs/nrc-721#readme"
+}
