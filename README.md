@@ -30,7 +30,7 @@ const nftSdk = await NrcSdk.initialize({
 });
 ```
 
-Initialization is needed to load dependencies from the blockchain. After this, the sdk can be used to create Collection Cells, Nfts Cells and read them from the blockchain.
+Initialization is needed to load dependencies from the blockchain. After this, the sdk can be used to create Factory Cells, Nfts Cells and read them from the blockchain.
 
 The node and indexer urls should be provided, the ones from the example above should work when running them local. For testing purposes Nervos offers a public testnet node:
 

@@ -4,7 +4,7 @@ const NrcSdk = require("@rather-labs/nrc-721-sdk");
 const nodeUrl = "http://localhost:8114";
 const indexerUrl = "http://localhost:8116";
 
-(async () => {
+const main = async () => {
 
   const { nftCell } = await NrcSdk.initialize({
     nodeUrl,
@@ -18,9 +18,11 @@ const indexerUrl = "http://localhost:8116";
     args: "0x00000000000000000000000000000000000000000000000000545950455f494401e7163112428f50384027fdadb679b61bc380330d51875dbf0f4e804123cecd141c44c4bc09db538e32b70694fbe4a3578f32a63538d29de6b30056fbaf2e61ff"
   };
   
-  const { data, rawCell, collectionData } = await nftCell.read(nftCell_typeScript);
+  const { data, rawCell, factoryData } = await nftCell.read(nftCell_typeScript);
   console.log("Nft Cell Data: ", JSON.parse(data));
-  console.log("Collection Data: ", collectionData);
+  console.log("Factory Data: ", factoryData);
   console.log("Nft Cell: ", rawCell);
 
-})();
+};
+
+main();
