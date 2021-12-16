@@ -12,7 +12,7 @@ const OWNER_PRIVATE_KEY = "PRIVATE_KEY";
 const nftContractTypeScript = {
   codeHash: "0x00000000000000000000000000000000000000000000000000545950455f4944",
   hashType: "type",
-  args: "0xa557cb3e137801259f55ccca6dad55e8d4df51e9462471b4f9fa7dd7ab9df108"
+  args: "0xc2407f8b6ef27a10c35a55ab589e6bfc28db3f2fe5b08cab63384c88a02a14e6"
 };
 
 const main = async () => {
