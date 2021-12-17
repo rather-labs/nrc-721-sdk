@@ -15,7 +15,7 @@
     "url": "git+https://github.com/rather-labs/nrc-721-sdk.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/rather-labs"
+    "registry": "https://registry.npmjs.org"
   },
   "keywords": [
     "nervos",
