@@ -18,7 +18,9 @@ const main = async () => {
     args: "0x00000000000000000000000000000000000000000000000000545950455f494401e7163112428f50384027fdadb679b61bc380330d51875dbf0f4e804123cecd141c44c4bc09db538e32b70694fbe4a3578f32a63538d29de6b30056fbaf2e61ff"
   };
   
-  const { data, rawCell, factoryData } = await nftCell.read(nftCell_typeScript);
+  const { tokenId, tokenUri, data, rawCell, factoryData } = await nftCell.read(nftCell_typeScript);
+  console.log("Nft Token Id: ", tokenId);
+  console.log("Nft Token URI: ", tokenUri);
   console.log("Nft Cell Data: ", JSON.parse(data));
   console.log("Factory Data: ", factoryData);
   console.log("Nft Cell: ", rawCell);

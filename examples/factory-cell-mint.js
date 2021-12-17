@@ -18,7 +18,7 @@ const main = async () => {
   const { rawTransaction, typeScript, usedCapacity } = await factoryCell.mint({
     name: "Test token factory",
     symbol: "TTF",
-    tokenUri: "http://test-token.com",
+    baseTokenUri: "http://test-token.com",
     sourceAddress: OWNER_ADDRESS,
     targetAddress: OWNER_ADDRESS,
     fee: 0.0001,
