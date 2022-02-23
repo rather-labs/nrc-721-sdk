@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "@nervosnetwork/ckb-sdk-core": "^0.101.0",
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "keccak256": "^1.0.6"
   }
 }
