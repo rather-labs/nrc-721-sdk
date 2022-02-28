@@ -58,7 +58,6 @@
   "dependencies": {
     "@nervosnetwork/ckb-sdk-core": "^0.101.0",
     "axios": "^0.24.0",
-    "bignumber.js": "^9.0.2",
-    "keccak256": "^1.0.6"
+    "bignumber.js": "^9.0.2"
   }
 }
