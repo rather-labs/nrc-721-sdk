@@ -1,24 +1,12 @@
-name: "tagged-release"
+name: "publish-on-release"
 
 on:
-  push:
-    tags:
-      - "v*"
+  release:
+    types: [created]
 
 jobs:
-  tagged-release:
-    name: "Tagged Release"
-    runs-on: "ubuntu-latest"
-
-    steps:
-      - uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: false
   publish-npm:
-    name: "Publish Release - npm"
-    runs-on: "ubuntu-latest"
-
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
