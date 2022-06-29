@@ -1,6 +1,6 @@
 {
   "name": "@rather-labs/nrc-721-sdk",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "SDK for interacting with NFTs under NRC-721 strandard in Layer 1 of Nervos Network",
   "main": "./lib/index.js",
   "directories": {
