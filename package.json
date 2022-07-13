@@ -56,7 +56,7 @@
     "lint-staged": "^10.5.3"
   },
   "dependencies": {
-    "@nervosnetwork/ckb-sdk-core": "^0.101.0",
+    "@nervosnetwork/ckb-sdk-core": "^0.102.3",
     "axios": "^0.24.0",
     "bignumber.js": "^9.0.2"
   }
